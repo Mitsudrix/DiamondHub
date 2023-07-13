@@ -1214,7 +1214,7 @@ do
 
             Converted["_Main"].BackgroundColor3 = Color3.fromRGB(18.000000827014446, 18.000000827014446, 18.000000827014446)
             Converted["_Main"].BackgroundTransparency = 1
-            Converted["_Main"].Position = UDim2.new(0.5, -320, 0.5, -219)
+            Converted["_Main"].Position = UDim2.new(0.5, -300, 0.5, -219)
             Converted["_Main"].Size = UDim2.new(0, 340, 0, 238)
             Converted["_Main"].ZIndex = 100
             Converted["_Main"].Name = "Main"
