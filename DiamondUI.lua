@@ -1214,8 +1214,8 @@ do
 
             Converted["_Main"].BackgroundColor3 = Color3.fromRGB(18.000000827014446, 18.000000827014446, 18.000000827014446)
             Converted["_Main"].BackgroundTransparency = 1
-            Converted["_Main"].Position = UDim2.new(0, 50, 0, 50)
-            Converted["_Main"].Size = UDim2.new(0, 340, 0, 238)
+            Converted["_Main"].Position = UDim2.new(0, 0, 0, 100)
+            Converted["_Main"].Size = UDim2.new(0, 250, 0, 300)
             Converted["_Main"].ZIndex = 100
             Converted["_Main"].Name = "Main"
             Converted["_Main"].Parent = Converted["_Atlas"]
