@@ -7,8 +7,8 @@
 â–ˆâ–ˆâ•‘â–‘â–‘â–ˆâ–ˆâ•‘â–‘â–‘â–‘â–ˆâ–ˆâ•‘â–‘â–‘â–‘â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–ˆâ–ˆâ•‘â–‘â–‘â–ˆâ–ˆâ•‘â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•
 â•šâ•â•â–‘â–‘â•šâ•â•â–‘â–‘â–‘â•šâ•â•â–‘â–‘â–‘â•šâ•â•â•â•â•â•â•â•šâ•â•â–‘â–‘â•šâ•â•â•šâ•â•â•â•â•â•â–‘
 
-Made by -MitsudriX, Thunder#1582
-Join: https://discord.gg/rnwyHDpdSJ
+Made by RoadToGlory#9879
+Join: https://discord.gg/xu5dDS3Pb9
 
 ]]
 
@@ -1194,28 +1194,28 @@ do
             Converted["_Atlas"].IgnoreGuiInset = true
             Converted["_Atlas"].ResetOnSpawn = false
             Converted["_Atlas"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-            Converted["_Atlas"].Name = "xRA3D"
+            Converted["_Atlas"].Name = "Atlas"
             Converted["_Atlas"].Parent = game:GetService("CoreGui")
 
             Converted["_UI_Library"].Name = "UI_Library"
             Converted["_UI_Library"].Parent = Converted["_Atlas"]
 
-            Converted["_Name"].Value = "xRA3D"
+            Converted["_Name"].Value = "Atlas UI Library"
             Converted["_Name"].Name = "Name"
             Converted["_Name"].Parent = Converted["_UI_Library"]
 
-            Converted["_Creator"].Value = "tz.t(Discord)"
+            Converted["_Creator"].Value = "RoadToGlory#9879"
             Converted["_Creator"].Name = "Creator"
             Converted["_Creator"].Parent = Converted["_UI_Library"]
 
-            Converted["_Discord"].Value = "https://discord.gg/REac3wEwTV"
+            Converted["_Discord"].Value = "https://discord.gg/xu5dDS3Pb9"
             Converted["_Discord"].Name = "Discord"
             Converted["_Discord"].Parent = Converted["_UI_Library"]
 
             Converted["_Main"].BackgroundColor3 = Color3.fromRGB(18.000000827014446, 18.000000827014446, 18.000000827014446)
             Converted["_Main"].BackgroundTransparency = 1
             Converted["_Main"].Position = UDim2.new(0.5, -320, 0.5, -219)
-            Converted["_Main"].Size = UDim2.new(0, 250, 0, 250)
+            Converted["_Main"].Size = UDim2.new(0, 640, 0, 438)
             Converted["_Main"].ZIndex = 100
             Converted["_Main"].Name = "Main"
             Converted["_Main"].Parent = Converted["_Atlas"]
@@ -1436,7 +1436,7 @@ do
             Converted["_Frame"].Parent = Converted["_Main1"]
 
             Converted["_B"].Font = Enum.Font.Gotham
-            Converted["_B"].Text = "xRA3D UI Lib: tz.t[Discord]" -- please don't remove this, this is open sourced and I leave this here so that users can know the name of the UI library if they are interested in it
+            Converted["_B"].Text = "Atlas UI Lib: RoadToGlory#9879" -- please don't remove this, this is open sourced and I leave this here so that users can know the name of the UI library if they are interested in it
             Converted["_B"].TextColor3 = Color3.fromRGB(225.00000178813934, 225.00000178813934, 225.00000178813934)
             Converted["_B"].TextSize = 12
             Converted["_B"].AnchorPoint = Vector2.new(0.5, 0.5)
@@ -1449,7 +1449,7 @@ do
             Converted["_B"].Parent = Converted["_Frame"]
 
             Converted["_A"].Font = Enum.Font.Gotham
-            Converted["_A"].Text = "AWP: tz.t[Discord]"
+            Converted["_A"].Text = "AWP: RoadToGlory#9879"
             Converted["_A"].TextColor3 = Color3.fromRGB(225.00000178813934, 225.00000178813934, 225.00000178813934)
             Converted["_A"].TextSize = 12
             Converted["_A"].AnchorPoint = Vector2.new(0.5, 0.5)
@@ -6731,6 +6731,6 @@ do
     end
 end
 
-print("xRA3D v"..VERSION.." by tz.t(Discord) has initiated")
+print("Atlas UI Library v"..VERSION.." by RoadToGlory#9879 has initiated")
 
 return Library
