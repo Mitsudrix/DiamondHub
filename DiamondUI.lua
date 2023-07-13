@@ -1200,7 +1200,7 @@ do
             Converted["_UI_Library"].Name = "UI_Library"
             Converted["_UI_Library"].Parent = Converted["_Atlas"]
 
-            Converted["_Name"].Value = "xRA3D UI Library"
+            Converted["_Name"].Value = "xRA3D"
             Converted["_Name"].Name = "Name"
             Converted["_Name"].Parent = Converted["_UI_Library"]
 
@@ -1436,7 +1436,7 @@ do
             Converted["_Frame"].Parent = Converted["_Main1"]
 
             Converted["_B"].Font = Enum.Font.Gotham
-            Converted["_B"].Text = "Atlas UI Lib: RoadToGlory#9879" -- please don't remove this, this is open sourced and I leave this here so that users can know the name of the UI library if they are interested in it
+            Converted["_B"].Text = "xRA3D UI Lib: tz.t[Discord]" -- please don't remove this, this is open sourced and I leave this here so that users can know the name of the UI library if they are interested in it
             Converted["_B"].TextColor3 = Color3.fromRGB(225.00000178813934, 225.00000178813934, 225.00000178813934)
             Converted["_B"].TextSize = 12
             Converted["_B"].AnchorPoint = Vector2.new(0.5, 0.5)
@@ -1449,7 +1449,7 @@ do
             Converted["_B"].Parent = Converted["_Frame"]
 
             Converted["_A"].Font = Enum.Font.Gotham
-            Converted["_A"].Text = "AWP: RoadToGlory#9879"
+            Converted["_A"].Text = "AWP: tz.t[Discord]"
             Converted["_A"].TextColor3 = Color3.fromRGB(225.00000178813934, 225.00000178813934, 225.00000178813934)
             Converted["_A"].TextSize = 12
             Converted["_A"].AnchorPoint = Vector2.new(0.5, 0.5)
@@ -6731,6 +6731,6 @@ do
     end
 end
 
-print("Atlas UI Library v"..VERSION.." by RoadToGlory#9879 has initiated")
+print("xRA3D v"..VERSION.." by tz.t(Discord) has initiated")
 
 return Library
