@@ -1194,28 +1194,28 @@ do
             Converted["_Atlas"].IgnoreGuiInset = true
             Converted["_Atlas"].ResetOnSpawn = false
             Converted["_Atlas"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-            Converted["_Atlas"].Name = "Atlas"
+            Converted["_Atlas"].Name = "xRA3D"
             Converted["_Atlas"].Parent = game:GetService("CoreGui")
 
             Converted["_UI_Library"].Name = "UI_Library"
             Converted["_UI_Library"].Parent = Converted["_Atlas"]
 
-            Converted["_Name"].Value = "Atlas UI Library"
+            Converted["_Name"].Value = "xRA3D UI Library"
             Converted["_Name"].Name = "Name"
             Converted["_Name"].Parent = Converted["_UI_Library"]
 
-            Converted["_Creator"].Value = "RoadToGlory#9879"
+            Converted["_Creator"].Value = "tz.t(Discord)"
             Converted["_Creator"].Name = "Creator"
             Converted["_Creator"].Parent = Converted["_UI_Library"]
 
-            Converted["_Discord"].Value = "https://discord.gg/xu5dDS3Pb9"
+            Converted["_Discord"].Value = "https://discord.gg/REac3wEwTV"
             Converted["_Discord"].Name = "Discord"
             Converted["_Discord"].Parent = Converted["_UI_Library"]
 
             Converted["_Main"].BackgroundColor3 = Color3.fromRGB(18.000000827014446, 18.000000827014446, 18.000000827014446)
             Converted["_Main"].BackgroundTransparency = 1
             Converted["_Main"].Position = UDim2.new(0.5, -320, 0.5, -219)
-            Converted["_Main"].Size = UDim2.new(0, 640, 0, 438)
+            Converted["_Main"].Size = UDim2.new(0, 480, 0, 550)
             Converted["_Main"].ZIndex = 100
             Converted["_Main"].Name = "Main"
             Converted["_Main"].Parent = Converted["_Atlas"]
