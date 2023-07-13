@@ -1,0 +1,69 @@
+
+        local ThunderHub = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mitsudrix/DiamondHub/main/DiamondUI.lua"))()
+        
+        local UI = ThunderHub.new({
+            Name = "Thunder Hub";
+            ConfigFolder = nil;
+            Credit = "Made By MitsudriX";
+            Color = Color3.fromRGB(223, 55, 19);
+            Bind = "F1";
+        })
+        
+        --[[Variables]]--
+        local KeyPresser = game:GetService('VirtualInputManager')
+        local TweenService = game:GetService("TweenService")
+        local player = game:GetService("Players").LocalPlayer
+        local character = player.Character
+
+        local FarmAllBosses = nil
+        local Weapon = nilsa
+        local TweenSpeed = 200
+        local Distance = 10
+
+        local ToggleAutoClash = false
+        local ToggleArrowGka = nil
+        local ToggleArrowBypass = nil
+  
+        local noclipE = nil
+        local Distance = 10
+        local TweenSpeed = 300
+
+       
+
+        UI.Icons = {
+            ["Warning"] = 11110093949;
+            ["Info"] = 11109991278;
+            ["Error"] = 11109992284;
+        }
+        
+    --[[Functions]]--
+
+    --=--=--=--=--=--=--=--=--=--=--=--=--=--
+            --[[UI]]--
+        local Players = UI:CreatePage("Player")
+        
+        local AutoFarmSection = Players:CreateSection("Auto Farm")
+        local OpFarmSection = Players:CreateSection("Op Farm")
+
+        local FarmPosition = AutoFarmSection:CreateDropdown({ 
+            Name = "Select Your Position"; -- required: name of element
+            Callback = function(method)  -- required: function to be called an item in the dropdown is activated
+                mode = method
+            end;
+            Options = {"Above", "Below"}; -- required: dropdown options
+            ItemSelecting = true; -- optional: whether to control item selecting behavior in dropdowns (see showcase video), is false by default 
+            DefaultItemSelected = "(Nothing)"; -- optional: default item selected, will not run the callback and does not need to be from options table. This will be ignored if ItemSelecting is not true.
+            -- Scroll to the bottom of the page to read more about the following two:
+            Warning = "Recommended: Above"; -- optional: this argument is used in all elements (except for Body) and will indicate text that will appear when the player hovers over the warning icon
+            WarningIcon = UI.Icons.Info; -- optional: ImageAssetId for warning icon, will only be used if Warning is not nil, default is yellow warning icon.
+        })
+        
+        AutoFarmSection:CreateToggle({ 
+            Name = "Auto Farm Bosses"; 
+            Flag = "AutoFarm"; 
+            Default = false; 
+            Callback = function(Value)
+                FarmAllBosses = Value
+            end;
+        })         
+        
