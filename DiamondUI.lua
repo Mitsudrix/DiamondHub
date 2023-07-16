@@ -1212,7 +1212,7 @@ do
             Converted["_Discord"].Name = "Discord"
             Converted["_Discord"].Parent = Converted["_UI_Library"]
 
-            Converted["_Top_fill"].AnchorPoint = Vector2.new(0.5, 0.5)
+            Converted["_Main"].AnchorPoint = Vector2.new(0.5, 0.5)
             Converted["_Main"].BackgroundColor3 = Color3.fromRGB(18.000000827014446, 18.000000827014446, 18.000000827014446)
             Converted["_Main"].BackgroundTransparency = 1
             Converted["_Main"].Position = UDim2.new(0.5, 0, 0.5, 0)
