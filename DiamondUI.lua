@@ -2606,7 +2606,7 @@ do
         utility:Requirement(info.Title,"Missing title argument")
         utility:Requirement(info.Content,"Missing content argument")
 
-        info.Duration = info.Duration or 3.5
+        info.Duration = info.Duration or 10
 
         info.Callback = info.Callback or utility.BlankFunction
 
