@@ -309,7 +309,7 @@ do
 
         local inputBegan = button.MouseButton1Down:Connect(function()
             _dragging = true
-            _dragging_offset = Vector2.new(mouse.X,mouse.Y)-frame.AbsolutePosition
+            _dragging_offset = Vector2.new(mouse.Hit.X,mouse.Hit.Y)-frame.AbsolutePosition
         end)
 
         local inputEnded = mouse.Button1Up:Connect(function()
@@ -325,7 +325,7 @@ do
                     _dragging_offset = nil
                 end
                 if _dragging and _dragging_offset then
-                    frame.Position = UDim2.fromOffset(mouse.X-_dragging_offset.X+(frame.AbsoluteSize.X*frame.AnchorPoint.X),mouse.Y-_dragging_offset.Y+36+(frame.AbsoluteSize.Y*frame.AnchorPoint.Y))
+                    frame.Position = UDim2.fromOffset(mouse.Hit.X-_dragging_offset.X+(frame.AbsoluteSize.X*frame.AnchorPoint.X),mouse.Hit.Y-_dragging_offset.Y+36+(frame.AbsoluteSize.Y*frame.AnchorPoint.Y))
                 end
             end)
         end)()
